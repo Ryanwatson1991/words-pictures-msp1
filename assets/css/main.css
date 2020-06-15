@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:100;200;300;400;500;600;700|Roboto:100;200;300;400;500;600;700');
+
+
+.logo {
+    background: url("../images/logo4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 260px;
+    min-height: 200px;
+    padding:0;
+    margin:0;
+}
+
+.navlinks {
+    color: #ffffff;
+    background-color: #404040;
+    padding-top: 120px;
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    padding: 60px; 
+}
+
+.right {
+    float: right;
+}
+
