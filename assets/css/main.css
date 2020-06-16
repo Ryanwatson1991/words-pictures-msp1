@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:100;200;300;400;500;600;700|Roboto:100;200;300;400;500;600;700');
+@import url('@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic:100;200;300;400;500;600;700|Montserrat:100;200;300;400;500;600;700');');
 
 
 .logo {
-    background: url("../images/logo4.jpg");
+    background: url("../images/logo5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,13 +11,27 @@
     min-height: 200px;
     padding:0;
     margin:0;
+    color: #ffe186;
+    text-transform: uppercase;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logo h1 {
+    background-size: cover;
 }
 
 .navlinks {
-    color: #ffffff;
     background-color: #404040;
     padding-top: 120px;
     margin: 0;
+    font-family: 'monserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.navlinks a {
+    color: #f2edeb
 }
 
 .menuitem {
