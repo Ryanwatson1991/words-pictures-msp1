@@ -140,4 +140,18 @@ footer {
     width: 20%;
     margin-left: 10%;
 }
+
+#contact-us {
+    padding: 0 80px 0 80px;
+}
+
+.contact-icon {
+    padding: 0px 25px 25px 25px;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.contact-icon a {
+    color: #404040
+}
 /*------------------End of Footer*/
