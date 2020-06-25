@@ -136,9 +136,15 @@ footer {
 }
 
 .sponsor {
-    float: left;
-    width: 20%;
-    margin-left: 10%;
+    /* float: left; */
+    width: 100px;
+    height: auto;
+    /* margin-left: 10%; */
+    padding: 10px;
+}
+
+.sponsor-lg {
+    
 }
 
 #contact-us {
