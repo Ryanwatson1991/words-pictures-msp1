@@ -10,6 +10,8 @@
     margin: 0;
  }
 
+
+
 .menu a {
     color: #F4F3EF
 }
@@ -57,7 +59,11 @@ li img {
     padding-top: 15px;
 }
 
-@media only screen and (max-width: 992px) {
+.logo a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
 .logo {
     width: 100%;
   }
@@ -71,6 +77,11 @@ li img {
     text-transform: uppercase;
     vertical-align: top;
     letter-spacing: 1px;
+}
+
+.menuitem a:hover {
+    color: #ffe186;
+    text-decoration: none;
 }
 
 .left {
@@ -93,29 +104,47 @@ li img {
 }
 
 .navbar-toggler {
-    padding-top: 35px;
+    padding-top: 25px;
+    text-align: left;
+    padding-left: 25px;
 }
 
 @media only screen and (max-width: 768px) {
     .dropdown {
     padding-top: 12px;
-    text-align: center;
+   /*-- text-align: center; --*/
 }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
 .menuitem {
     padding: 7px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+.monitor-only {
+   display: none;
+  }
+}
+
+@media only screen and (min-width: 1030px) {
+.ipad {
+   display: none!important;
   }
 }
 
 /*-------------------------------------Images*/
 
 .ch1 {
-    text-align: left;
-    padding-left: 0;
     padding-top: 123px;
 }
+
+.ch1-2 {
+    text-align: left;
+    padding-left: 0;
+}
+
 
 .ch2 {
     text-align: right;
