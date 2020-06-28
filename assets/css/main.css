@@ -1,45 +1,224 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Anton&|Montserrat:100,200,300,400,500,600,700,800,900');
+
+/*------------------Header*/
+
+.menu {
+    background-color: #404040;
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+ }
 
 
-.logo {
-    background: url("../images/logo5.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 360px;
-    width: 260px;
-    min-height: 200px;
+
+.menu a {
+    color: #F4F3EF
+}
+
+ul {
+    margin:0;
+    padding: 0;
+}
+
+li img {
     padding:0;
     margin:0;
-    color: #ffe186;
-    text-transform: uppercase;
-    font-family: 'Anton', sans-serif;
-    font-weight: 700;
-    text-align: center;
+}
+
+.list-inline {
+    height: 100%;
+}
+
+.navbar {
+    display: inline;
+    padding: 0;
+}
+
+/*-------------------------------------Logo*/
+.logo {
+    margin:0;
+    width: 40%;
 }
 
 .logo h1 {
-    background-size: cover;
-}
-
-.navlinks {
-    background-color: #404040;
-    padding-top: 120px;
+    color: #F4F3EF;
     margin: 0;
-    font-family: 'monserrat', sans-serif;
-    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    padding-top: 25px;
+    letter-spacing: 6px;
+    line-height: 1.5;
+    font-size: 60px;
 }
 
-.navlinks a {
-    color: #f2edeb
+.logo p {
+    color: #ffe186;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding-bottom: 25px;
+    padding-top: 15px;
 }
 
+.logo a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+.logo {
+    width: 100%;
+  }
+}
+
+/*-------------------------------------Navlinks*/
 .menuitem {
-    height: 120px;
-    padding: 60px; 
+    padding-top: 180px;
+    padding-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    vertical-align: top;
+    letter-spacing: 1px;
+}
+
+.menuitem a:hover {
+    color: #ffe186;
+    text-decoration: none;
+}
+
+.left {
+    padding-right: 20px;
 }
 
 .right {
-    float: right;
+    padding-right: 20px;
 }
 
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.dropdown {
+    padding-left: 12px;
+    line-height: 200%;
+    /* padding-top: 12px; */
+    text-align: left;
+}
+
+.navbar-toggler {
+    padding-top: 25px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .dropdown {
+    padding-top: 12px;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+.menuitem {
+    padding: 7px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+.monitor-only {
+   display: none;
+  }
+}
+
+@media only screen and (min-width: 1030px) {
+.ipad {
+   display: none!important;
+  }
+}
+
+/*-------------------------------------Images*/
+
+.ch1 {
+    padding-top: 123px;
+}
+
+.ch1-2 {
+    text-align: left;
+    padding-left: 0;
+}
+
+
+.ch2 {
+    text-align: right;
+    padding-right: 0;
+    padding-top: 124px
+    
+}   
+
+/*------------------End of Header*/
+
+
+
+/*------------------Footer*/
+footer {
+    background-color:#F2EDEB;
+    color: #404040;
+    min-height: 130px;
+}
+
+.support {
+    text-align: center;
+    padding-bottom: 25px
+}
+
+.sponsor {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+#contact-us {
+    text-align: center;
+    padding-left: 0;
+}
+
+.contact-icon {
+    padding: 20px 60px 25px 0px;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 40px;
+}
+
+.contact-icon a {
+    color: #404040;
+    width: 40px;
+}
+
+.contact-icon a:hover {
+    color: #bfbbb8;
+    text-decoration: none;
+}
+/*------------------End of Footer*/
+
+input[type="radio"]: after {
+    color: red;
+}
+
+.myButton {
+	background-color:#bfbbb8;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#404040;
+	font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+	padding:11px 20px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bfbbb8 5%, #bfbbb8 100%);
+	background-color:#bfbbb8;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
