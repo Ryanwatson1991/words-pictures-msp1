@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Words & Pictures!</title>
 </head>
 <body>
@@ -13,10 +14,6 @@
     <header class="container-fluid">
         <div>
             <div class="row">
-            <!--Large Col for Image
-                <div class="col-2 menu ch1 d-none d-lg-block"><img src="assets/images/ch1.2.jpg" class="monitor-only">
-                </div>
-            /Large Col for Image-->
             <!--Col for nav menu on non-large screens-->
                 <div class="col-12 col-md-3 col-lg-2 menu d-block ch1-2">
                             <img src="assets/images/ch1.2.jpg" class="monitor-only menu ch1">
@@ -80,24 +77,31 @@
     
     </header>
 <!--Landing Page-->
-<article class="container">
-    
-            <section class="callout">
-                <h1>WORDS AND PICTURES</h1>
-                <h3>Gateshead Comic Convention @ Baltic Square</h3>
-                <p>Saturday 12- Sunday 13 December 2020</p>
-                <h3>Free Entry (Booking Essential)</h3>
-                <button data-toggle="modal" data-target="#tickets">
-                    Book Now!
-                </button>
+<article class="container-fluid container-callout landing">
+           <div class="overlay">
 
-                <!--Large background image covering full screen width. (carousel images if possible) 
-                Jumbotron with key event details - date, location & ticket links.--> 
-            </section>
+           <section class="callout">
+                <div class="info jumbotron">
+                    <h2>The North-East's <br>Biggest Comic-Con</h2>
+                    <h3> @ Baltic Square</h3>
+                    <h3>Free Entry </h3>
+                    <h4 class="text-sm d-none d-md-block">(Booking Essential)</h4>
+                    <br>
+                    <button class="bookButton" data-toggle="modal" data-target="#tickets">
+                        Book Now!
+                    </button>
+                </div>
+            </section> 
+            </div>
+</article>
+
+
+<article class="container landing">
+            
             <section class="about">
                 <div class="row">
                     <div class="col-12">
-                    <h2>The North-East's Biggest Comic-Con</h2>
+                    <h2></h2>
                     <p>WORDS AND PICTURES is Gateshead's community celebration of comic books and everything around them. 
                     It is an event for fans of all types of comics, from the big-two to modern web comics. 
                     But it is also an event that supports creators and promotes discussion about diversity and inclusivity within the comics industry. 
@@ -106,55 +110,57 @@
                     <div class="col-12 col-md-6">
                     <h3>Guests</h3>
                     <ul class="list-inline">
-                        <li class="list-inline-item">Kelly Thompson</li>
-                        <li class="list-inline-item">Kyle Higgins</li>
-                        <li class="list-inline-item">Jen Bartel</li>
-                        <li class="list-inline-item">Rachel Smythe</li>
-                        <li class="list-inline-item">Gene-Luen-Yang</li>
-                        <li class="list-inline-item">Gail Simone</li>
+                        <li class="col-4 list-inline-item">Kelly Thompson</li>
+                        <li class="col-4 list-inline-item">Kyle Higgins</li>
+                        <li class="col-4 list-inline-item">Jen Bartel</li>
+                        <li class="col-4 list-inline-item">Rachel Smythe</li>
+                        <li class="col-4 list-inline-item">Gene-Luen-Yang</li>
+                        <li class="col-4 list-inline-item">Gail Simone</li>
                     </ul>
                     </div>
                     <div class="col-12 col-md-6">
                     <h3>Programme</h3>
                     <ul class="list-inline">
-                        <li>Mid-Con Party @ By the River Brew</li>
-                        <li class="list-inline-item">Panels & talks</li>
-                        <li class="list-inline-item">Portfolio Reviews</li>
-                        <li class="list-inline-item">Signings</li>
-                        <li class="list-inline-item">Cosplay Competition</li>
-                        <li class="list-inline-item">Exclusive W&P comics anthology</li>
+                        <li class="col-12 list-inline-item">Mid-Con Party @ By the River Brew</li>
+                        <li class="col-3 list-inline-item">Panels & talks</li>
+                        <li class="col-3 list-inline-item">Portfolio Reviews</li>
+                        <li class="col-3 list-inline-item">Signings</li>
+                        <li class="col-6 list-inline-item">Cosplay Competition</li>
+                        <li class="col-6 list-inline-item">Exclusive W&P comics anthology</li>
                     </ul>
                     </div>
                 </div>
                <!-- Why you should come! 
                 - A brief description of the event & names of some of the headline guests. -->
             </section>
-            <section class="find-us">
+            <section class="key-info">
                 <h3>Key info</h3>
-                    <ul class="list-block">
-                        <li class="list-block-item"><strong>Venue</strong><br>Baltic Centre for Contemporary Art</li>
-                        <li class="list-block-item"><strong>How do I get there?</strong><br>
-                        <!--Embed Google map
+                    <ul>
+                        <li class="no-bullets"><strong>Venue</strong><br>Baltic Centre for Contemporary Art</li>
+                        <li class="no-bullets"><strong>How do I get there?</strong><br>
+                    
                         
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4580.570460172574!2d-1.6025893523585837!3d54.96809701683366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e7096a0791ac9%3A0xb442fe0e808b3691!2sBaltic%20Centre%20for%20Contemporary%20Art!5e0!3m2!1sen!2suk!4v1593356436291!5m2!1sen!2suk" 
+                       <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4580.570460172574!2d-1.6025893523585837!3d54.96809701683366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e7096a0791ac9%3A0xb442fe0e808b3691!2sBaltic%20Centre%20for%20Contemporary%20Art!5e0!3m2!1sen!2suk!4v1593356436291!5m2!1sen!2suk" 
                         width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                            <br>-->
-                        <a href="https://baltic.art/getting-to-baltic">Click here for more details on how to find the venue</a></li>
-                        <li class="list-block-item"><strong>Date</strong><br>Saturday 12 December - Sunday 13 December 2020*</li>
-                        <li><strong>Time</strong><br>Sat-Sun Convention: 9am-5pm<br>Mid-con Party @ By the River Brew: 7pm-late</li>
+                            <br>
+                        <a href="https://baltic.art/getting-to-baltic">Click here for more details on how to find the venue</a>--></li>
+                        <li class="no-bullets"><strong>Date</strong><br>Saturday 12 December - Sunday 13 December 2020*</li>
+                        <li class="no-bullets"><strong>Time</strong><br>Sat-Sun Convention: 9am-5pm<br>Mid-con Party @ By the River Brew: 7pm-late</li>
                     </ul>
                     <p><em>*Please note that this event takes place in a parallel timeline where all events in the year 2020 weren't cancelled. Also, while we're at it - just pretend that it won't be freezing on the Gateshead Quayside in December. </em></p>
+            </section>
+            <section class="find-us">     
                 <h3>Planning your Visit</h3>
-                    <ul class="list-block">
-                        <li class="list-block-item"><strong>Where to Stay?</strong><br>The Official Convention hotel is Encore Ramada*. 
+                    <ul>
+                        <li class="no-bullets"><strong>Where to Stay?</strong><br>The Official Convention hotel is Ramada Encore*. 
                             <br><a href="https://www.wyndhamhotels.com/en-uk/ramada/gateshead-united-kingdom/ramada-encore-newcastle-gateshead/overview">Book here</a></li>
-                        <li class="list-block-item"><strong>Where to Eat/Drink?</strong><br>
+                        <li class="no-bullets"><strong>Where to Eat/Drink?</strong><br>
                         <a href="https://theculturetrip.com/europe/united-kingdom/england/newcastle-upon-tyne/food-and-drinks/">
                         Click here for food/drink reccomendations</a></li>
-                        <li class="list-block-item"><strong>Other things to see & do</strong><br><a href="https://theculturetrip.com/europe/united-kingdom/england/articles/the-top-10-things-to-do-and-see-in-newcastle/">
+                        <li class="no-bullets"><strong>Other things to see & do</strong><br><a href="https://theculturetrip.com/europe/united-kingdom/england/articles/the-top-10-things-to-do-and-see-in-newcastle/">
                         Click here for more Reccomendations</a></li>
                     </ul>
-                    <p><em>*Use code: WRDSPICS20** at checkout for special convention discount rate.</em></p>
+                    <p><em>*Use code: WRDSPICS20 at checkout for special convention discount rate**.</em></p>
                     <p><em>**also....just to be super clear....this isn't a real event....don't try using that code or enquiring about anything.</em></p>
                 
                 <!--External links for planning a visit - 
@@ -264,8 +270,8 @@
             </div>
         </div>
     </div>
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
