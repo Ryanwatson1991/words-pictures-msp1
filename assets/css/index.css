@@ -13,7 +13,7 @@
 
 /*----Callout----*/
 .container-callout {
-    background: url(../images/hero2.jpg) no-repeat center center;
+    background: url(../images/hero1.jpg) no-repeat center center;
     background-size: 1400px;
     background-repeat: no-repeat;
     vertical-align: middle;
@@ -31,7 +31,6 @@
 }
 
 .callout {
-    /*background-color:#404040;*/
     color: #ffe186;
     position: relative;
 }
@@ -63,7 +62,6 @@
   bottom: 0;
   background-color: rgba(64,64,64,0.5);
   z-index: 2;
-  cursor: pointer;
   /*--overlay snippet taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_overlay*/
 }
 
