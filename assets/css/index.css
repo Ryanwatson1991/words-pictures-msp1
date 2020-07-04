@@ -108,6 +108,7 @@
     color: #736cc6;
     line-height: 1.7;
     letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 .list-header {
@@ -154,28 +155,61 @@
 
 .key-info {
     background: #f2edeb;
-    padding-bottom: 20px;
+    min-height: 400px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.key-info-header {
+    font-size: 50px;
 }
 
 .key-info p {
+    font-size: 20px;
     margin-bottom: 0;
+}
+
+.key-info a {
+    color: #404040;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.key-info a:hover {
+    color: #bfbbb8;
+    text-decoration: none;
 }
 
 .no-bullets {
     list-style: none;
+    padding: 10px 10px 10px 10px;
 }
 
-/*----Find Us----*/
+.map-container {
+    height: 350px;
+}
 
-.find-us {
+.map {
+    padding-top: 20px;
+    position: absolute;
+}
+
+.footnote {
+    padding: 30px 20px 10px 20px;
+}
+
+
+/*----Bottom Image ----*/
+
+.bottom-img {
     background: #ffe186;
     color: #404040;
 }
 
-/*.birds-img {
-    width: 250px;
+.birds-img {
+    width: 40%;
     height: auto;
-}*/
+}
 
 /*---button---*/
 
@@ -192,6 +226,7 @@
 	padding:13px 70px;
 	text-decoration:none;
 }
+
 .bookButton:hover {
 	color:#ffe186;
     background: #404040;
