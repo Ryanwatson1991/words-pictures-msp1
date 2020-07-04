@@ -3,6 +3,8 @@
 .landing {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .landing h1, h2, h3, h4, h5, h6 {
@@ -45,6 +47,11 @@
     margin-bottom: 0;
 }
 
+@media only screen and (max-width: 767px) {
+.info h2 {
+    font-size: 50px;
+  }
+}
 .info h3 {
     font-size: 3.5rem;
     width: 60%;
@@ -65,16 +72,93 @@
   /*--overlay snippet taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_overlay*/
 }
 
-/*----About----*/
-.about {
+/*----Programme----*/
+.programme {
     background: #ffe186;
     color: #404040;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    min-height: 400px;
 }
+
+.programme .row {
+    margin: 0;
+}
+
+.programme h2 {
+    font-size: 50px;
+}
+
+.programme-header h2 {
+    margin-bottom: 30px;
+}
+
+.programme-header p {
+    font-size: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+
+.programme-list-item {
+    font-size: 30px;
+    font-family: Anton;
+    font-weight: 300;
+    list-style: none;
+    color: #736cc6;
+    line-height: 1.7;
+    letter-spacing: 1.5px;
+}
+
+.list-header {
+    padding: 15px 0px 7.5px 0px;
+}
+
+.list-header a {
+    color: #404040;
+}
+
+.list-header a:hover {
+    color: #736cc6;
+    text-decoration: none;
+}
+
+.guests-incl {
+    padding-right: 15px;
+    border-style: solid;
+    border-color: #404040;
+    margin-right: 15px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.highlights-incl {
+    padding-left: 15px;
+    border-style: solid;
+    border-color: #404040;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+  @media only screen and (max-width: 767px) {
+.guests-incl, .highlights-incl {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+} 
 
 /*----Key Info---*/
 
 .key-info {
-    background: #f2edeb
+    background: #f2edeb;
+    padding-bottom: 20px;
+}
+
+.key-info p {
+    margin-bottom: 0;
 }
 
 .no-bullets {
@@ -88,6 +172,11 @@
     color: #404040;
 }
 
+/*.birds-img {
+    width: 250px;
+    height: auto;
+}*/
+
 /*---button---*/
 
 .bookButton {
@@ -100,7 +189,7 @@
 	font-size:30px;
     text-transform: uppercase;
     letter-spacing: 2px;
-	padding:13px 76px;
+	padding:13px 70px;
 	text-decoration:none;
 }
 .bookButton:hover {
