@@ -1,19 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&|Montserrat:100,200,300,400,500,600,700,800,900');
 
+body {
+    background-color: #f2edeb;
+}
+
 .get-involved {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     padding-left: 0;
     padding-right: 0;
-    background-color: #f2edeb;
+    font-size: 18px;
     color: #404040;
 }
 
 .get-involved h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
+    
 }
 
-.get-involved ul {
-    list-style: none;
+.get-involved h1 {
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.get-involved h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.benefits{
+    text-align: left;
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+@media only screen and (max-width: 768px) {
+.benefits {
+     margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+section {
+    padding: 45px 45px 45px 45px;
 }

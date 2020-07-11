@@ -10,6 +10,7 @@ body {
     padding-top: 45px;
     padding-bottom: 45px;
     font-size: 15px;
+    line-height: 2;
 }
 
 .schedule-container h1, h2 {
