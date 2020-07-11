@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&|Montserrat:100,200,300,400,500,600,700,800,900');
+
+body {
+    background-color: #ffe186;
+}
+
+.schedule-container {
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 15px;
+}
+
+.schedule-container h1, h2 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    margin: none;
+    color: #404040;
+    
+}
+
+.schedule-container h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.schedule-header {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.sun-head {
+    margin-top: 45px;
+}
+
+.day-header {
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+}
+
+.table td, .table th {
+    border-top: 5px solid #404040;
+    border-bottom: 5px solid#404040;
+}
+
+.more-info {
+    color: #736cc6;
+}
+
+.more-info:hover {
+    text-decoration: none;
+    color: #736cc6;
+}

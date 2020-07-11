@@ -6,17 +6,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/schedule.css">
     <title>Words & Pictures!</title>
 </head>
 <body>
     <header class="container-fluid">
         <div>
             <div class="row">
-            <!--Large Col for Image
-                <div class="col-2 menu ch1 d-none d-lg-block"><img src="assets/images/ch1.2.jpg" class="monitor-only">
-                </div>
-            /Large Col for Image-->
-            <!--Col for nav menu on non-large screens-->
                 <div class="col-12 col-md-3 col-lg-2 menu d-block ch1-2">
                             <img src="assets/images/ch1.2.jpg" class="monitor-only menu ch1">
                                 <button class="navbar-toggler navbar-dark d-block ipad" type="button" data-toggle="collapse" data-target="#navbarmenu-links" 
@@ -78,13 +74,13 @@
         </div>
     
     </header>
-    <div class="container schedule">
+    <div class="container schedule-container">
     <section>
-        <h1>Your Con Schedule</h1>
+        <h1 class="schedule-header">Your Con Schedule</h1>
     </section>
     <section>
-        <h2>Saturday</h2>
-        <table class="table">
+        <h2 class="day-header">Saturday</h2>
+        <table class="table sat-sched">
             <thead>
                 <tr>
                 <th scope="col">Time</th>
@@ -98,7 +94,10 @@
                 <td>Event Space 3rd floor</td>
                 <td>
                 <h5 class="panel">Fan-fiction/Art for the community</h5>
-                <p>Join <strong>Hannah Blumenreich</strong>, creator of the Spider-man fan comic <em>Spidey-zine</em> along with a panel full of comics' 
+                <p class="d-none d-md-block">Join <strong>Hannah Blumenreich</strong>, creator of the Spider-man fan comic <em>Spidey-zine</em> along with a panel full of comics' 
+                    most passionate fan fiction writers as they discuss fan comics, fan fiction and the importance of creating your own work when you feel you aren't been seen.</p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#fan-fiction-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="fan-fiction-panel">Join <strong>Hannah Blumenreich</strong>, creator of the Spider-man fan comic <em>Spidey-zine</em> along with a panel full of comics' 
                     most passionate fan fiction writers as they discuss fan comics, fan fiction and the importance of creating your own work when you feel you aren't been seen.</p>
                 </td>
                 </tr>
@@ -107,7 +106,10 @@
                 <td>BALTIC Library</td>
                 <td>
                 <h5 class="panel">Women in Comics - Comics in stasis!</h5>
-                <p>Join creators <strong>Gail Simone, Jen Bartel, Kelly Thompson & Sophie Campbell</strong> as they discuss toppling the uninclusive culture and outdated systems 
+                <p class="d-none d-md-block">Join creators <strong>Gail Simone, Jen Bartel, Kelly Thompson & Sophie Campbell</strong> as they discuss toppling the uninclusive culture and outdated systems 
+                    that decide who gets what opportunity in the comics industry.</p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#women-in-comics-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="women-in-comics-panel">Join creators <strong>Gail Simone, Jen Bartel, Kelly Thompson & Sophie Campbell</strong> as they discuss toppling the uninclusive culture and outdated systems 
                     that decide who gets what opportunity in the comics industry.</p>
                 </td>
                 </tr>
@@ -116,7 +118,10 @@
                 <td>BALTIC Library</td>
                 <td>
                 <h5 class="panel">My Bubbles!!!!</h5>
-                <p>Thought Bubbles? Word Baloons? Speech Bubbles? ....verbal clouds? Join us as we battle it out to decide once and for 
+                <p class="d-none d-md-block">Thought Bubbles? Word Baloons? Speech Bubbles? ....verbal clouds? Join us as we battle it out to decide once and for 
+                all what the correct nomenclature really is for comics' primary method of delivering dialogue. </p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#bubbles-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="bubbles-panel">Thought Bubbles? Word Baloons? Speech Bubbles? ....verbal clouds? Join us as we battle it out to decide once and for 
                 all what the correct nomenclature really is for comics' primary method of delivering dialogue. </p>
                 </td>
                 </tr>
@@ -125,7 +130,12 @@
                 <td>BALTIC Square Marquee</td>
                 <td>
                 <h5 class="panel">Kickstarting a comic with Kyle Starks</h5>
-                <p>It's 2020! All the best comics are the result of a successful Kickstarter now! <strong>Kyle Starks</strong> - writer and artist of a number of successfully 
+                <p class="d-none d-md-block">It's 2020! All the best comics are the result of a successful Kickstarter now! <strong>Kyle Starks</strong> - writer and artist of a number of successfully 
+                Kickstarted comics such as <em>Old Head</em>, <em>Kill Them All</em> and <em>Sexcastle</em>- discusses what makes a successful Kickstarter. <br>
+                .....also....back my autobiographical comic <em>From Wannabe Comics Writer to Doing a Web Developer Course in Six Months: An Oddyssey</em>
+                ...You can do that <a href="https://www.kickstarter.com" target="_blank">here</a>.</p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#kickstarter-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="kickstarter-panel">It's 2020! All the best comics are the result of a successful Kickstarter now! <strong>Kyle Starks</strong> - writer and artist of a number of successfully 
                 Kickstarted comics such as <em>Old Head</em>, <em>Kill Them All</em> and <em>Sexcastle</em>- discusses what makes a successful Kickstarter. <br>
                 .....also....back my autobiographical comic <em>From Wannabe Comics Writer to Doing a Web Developer Course in Six Months: An Oddyssey</em>
                 ...You can do that <a href="https://www.kickstarter.com" target="_blank">here</a>.</p>
@@ -136,7 +146,10 @@
                 <td>BALTIC Square Marquee</td>
                 <td>
                 <h5 class="panel">Webtoons - Give us a damn Eisner!!!</h5>
-                <p>Webtoons is an online platform that's home to some of the best and most accessible comics being released right now, and it's all Free. But somehow they were still totally snubbed for the Eisner Awards nominations this year. 
+                <p class="d-none d-md-block">Webtoons is an online platform that's home to some of the best and most accessible comics being released right now, and it's all Free. But somehow they were still totally snubbed for the Eisner Awards nominations this year. 
+                <strong>Rachel Smythe</strong> creator of <em>Lore Olympus</em> and <strong>Uru-Chan</strong> creator of <em>unOrdinary</em> have some things to say about this.</p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#webtoons-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="webtoons-panel">Webtoons is an online platform that's home to some of the best and most accessible comics being released right now, and it's all Free. But somehow they were still totally snubbed for the Eisner Awards nominations this year. 
                 <strong>Rachel Smythe</strong> creator of <em>Lore Olympus</em> and <strong>Uru-Chan</strong> creator of <em>unOrdinary</em> have some things to say about this.</p>
                 </td>
                 </tr>
@@ -145,17 +158,20 @@
                 <td>Event Space 3rd Floor</td>
                 <td>
                 <h5 class="panel">Power Rangers - Better than the show!</h5>
-                <p><strong>Kyle Higgins. Ryan Parrott. Daniele Di Niculo. Dafna Pleban.</strong> All come together for a retrospective on bringing the Power Rangers to a modern comics audience 
+                <p class="d-none d-md-block"><strong>Kyle Higgins. Ryan Parrott. Daniele Di Niculo. Dafna Pleban.</strong> All come together for a retrospective on bringing the Power Rangers to a modern comics audience 
+                and how they improved on the much loved but frankly pretty terrible 90's show.</p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#power-rangers-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="power-rangers-panel"><strong>Kyle Higgins. Ryan Parrott. Daniele Di Niculo. Dafna Pleban.</strong> All come together for a retrospective on bringing the Power Rangers to a modern comics audience 
                 and how they improved on the much loved but frankly pretty terrible 90's show.</p>
                 </td>
                 </tr>
             </tbody>
         </table>
-        
     </section>
-    <section>
-        <h2>Sunday</h2>
-        <table class="table">
+    <br>
+    <section class="sun-head">
+        <h2 class="day-header">Sunday</h2>
+        <table class="table sun-sched">
             <thead>
                 <tr>
                 <th scope="col">Time</th>
@@ -169,7 +185,9 @@
                 <td>BALTIC Cafe</td>
                 <td>
                 <h5 class="panel">Paper Quality - a heated debate about page thickness</h5>
-                <p>Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
+                <p class="d-none d-md-block">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#paper-quality-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="paper-quality-panel">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
                 </td>
                 </tr>
                 <tr>
@@ -177,7 +195,9 @@
                 <td>Event Space 3rd Floor</td>
                 <td>
                 <h5 class="panel">Body Diversity in Comics</h5>
-                <p></p>
+                <p class="d-none d-md-block">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#body-diversity-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="body-diversity-panel">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
                 </td>
                 </tr>
                 <tr>
@@ -185,7 +205,9 @@
                 <td>BALTIC Square Marquee</td>
                 <td>
                 <h5 class="panel">'Real Publishers' - Stepping outside the Comics industry</h5>
-                <p></p>
+                <p class="d-none d-md-block">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#real-publishers-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="real-publishers-panel">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
                 </td>
                 </tr>
                 <tr>
@@ -193,7 +215,9 @@
                 <td>BALTIC Library</td>
                 <td>
                 <h5 class="panel">Superman Smashes the Klan & Race in Comics</h5>
-                <p></p>
+                <p class="d-none d-md-block">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#superman-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="superman-panel">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
                 </td>
                 </tr>
                 <tr>
@@ -201,7 +225,9 @@
                 <td>BALTIC Library</td>
                 <td>
                 <h5 class="panel">LGBTQ+ YA Graphic Novels</h5>
-                <p></p>
+                <p class="d-none d-md-block">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#lgbtqya-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="lgbtqya-panel">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
                 </td>
                 </tr>
                 <tr>
@@ -209,7 +235,9 @@
                 <td>Event Space 3rd Floor</td>
                 <td>
                 <h5 class="panel">Cosplay Competition</h5>
-                <p></p>
+                <p class="d-none d-md-block">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
+                <a class="more-info d-md-none" data-toggle="collapse" href="#cosplay-panel" role="button" aria-expanded="false" aria-controls="collapseExample">More info</a>
+                <p class="collapse d-md-none" id="cosplay-panel">Do you like them nice thick pages modern comics use to put up the cover price? Or maybe you're Nostalgic for the good old days of newspaper quality paper. Maybe there's a somewhere in between. We put it to debate. There will be tears. </p>
                 </td>
                 </tr>
             </tbody>

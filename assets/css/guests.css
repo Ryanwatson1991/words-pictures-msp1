@@ -41,12 +41,18 @@ body {
     border-style: none;
 }
 
-.card:hover {
+.headline-guest:hover {
+    cursor: pointer;
+    color: #bfbbb8;
+}
+
+.additional-guest:hover {
     cursor: pointer;
     color: #bfbbb8;
 }
 
 .headline-guest {
+    width: 100%;
     margin: 20px;
     background-color: #f2edeb;
 }
@@ -59,12 +65,6 @@ body {
 .additional-guest {
     margin: 15px;
     background-color: #f2edeb;
-}
-
-@media only screen and (max-width: 768px) {
-.additional-guest {
-    margin-left: 13%;
-  }
 }
 
 .guests-header{
