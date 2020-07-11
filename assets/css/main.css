@@ -110,13 +110,6 @@ li img {
     padding-left: 25px;
 }
 
-@media only screen and (max-width: 768px) {
-    .dropdown {
-    padding-top: 12px;
-    text-align: center;
-}
-}
-
 @media only screen and (max-width: 1024px) {
 .menuitem {
     padding: 7px;

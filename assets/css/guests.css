@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&|Montserrat:100,200,300,400,500,600,700,800,900');
 
+body {
+    background-color: #f2edeb;
+}
+
 .guests-container {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 45px;
+    padding-bottom: 45px;
     padding-left: 0;
     padding-right: 0;
     background-color: #f2edeb;
@@ -13,17 +19,63 @@
 .guests-container h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
+    margin: none;
 }
 
 .guests-container ul {
     list-style: none;
 }
 
+.guests-container h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.guests-container h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
 .card {
     float: left;
+    border-style: none;
+}
+
+.card:hover {
+    cursor: pointer;
+    color: #bfbbb8;
+}
+
+.headline-guest {
+    margin: 20px;
+    background-color: #f2edeb;
+}
+
+.additional-guest {
+    margin: 15px;
+    background-color: #f2edeb;
+}
+
+.additional-guest {
+    margin: 15px;
+    background-color: #f2edeb;
+}
+
+@media only screen and (max-width: 768px) {
+.additional-guest {
+    margin-left: 13%;
+  }
 }
 
 .guests-header{
     position: relative;
     text-align: center;
 }
+
+.guest-card-modal .modal-body, .guest-card-modal .card {
+    background-color: #f2edeb;
+}
+
+.card-title {
+    font-size: 25px
+    }
