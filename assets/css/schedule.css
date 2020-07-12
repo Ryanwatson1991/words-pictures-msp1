@@ -1,8 +1,15 @@
+/*I've chosen to do different css files for each html page, as well as a seperate one for consistent elements like header & footer - 
+This came from discussing with mentor that this is a good practise to get into early on (even though my site isn't nearly big enough for this to affect loading times).
+I also found it helped a lot with organising my css.
+This page focuses on the schedule page)*/
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&|Montserrat:100,200,300,400,500,600,700,800,900');
 
 body {
     background-color: #ffe186;
 }
+
+/*--Container Styling--*/
 
 .schedule-container {
     color: #404040;
@@ -23,13 +30,15 @@ body {
 .schedule-container h5 {
     text-transform: uppercase;
     font-weight: bold;
-}
+} /*This is the only header element on the whole site that isn't in 'Anton' - it's because its in a table and Anton looked a bit too squished together to be readable*/
 
 .schedule-header {
     text-align: center;
     padding-bottom: 30px;
     font-size: 50px;
 }
+
+/*--Headers--*/
 
 .sun-head {
     margin-top: 45px;
@@ -41,10 +50,15 @@ body {
     font-size: 40px;
 }
 
+/*--Table Styling--*/
+
 .table td, .table th {
     border-top: 5px solid #404040;
     border-bottom: 5px solid#404040;
 }
+
+
+/*---Dropdown Styling--*/
 
 .more-info {
     color: #404040;

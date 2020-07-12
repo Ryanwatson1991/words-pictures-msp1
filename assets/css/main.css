@@ -1,3 +1,8 @@
+/*I've chosen to do different css files for each html page, as well as a seperate one for consistent elements like header & footer - 
+This came from discussing with mentor that this is a good practise to get into early on (even though my site isn't nearly big enough for this to affect loading times)
+I also found it helped a lot with organising my css.
+This page focuses on the consistent elements (header & footer)*/
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&|Montserrat:100,200,300,400,500,600,700,800,900');
 
 /*------------------Header*/
@@ -9,8 +14,6 @@
     text-align: center;
     margin: 0;
  }
-
-
 
 .menu a {
     color: #F4F3EF
@@ -68,7 +71,11 @@ li img {
 .logo {
     width: 100%;
   }
-}
+} 
+/*had to use a number of media queries a few times on the main.css file, specifically with the header. This is due to how the navlinks
+  on a large screen are positioned two to either side of the logo, with an image on each side - This positioning looks okay on PC sized larger screens (My laptop & seperte, slightly bigger monitor)
+  but on screens such as an landscape mode ipad (still considered a large screen) the spacing on this was wrong, so I've extended the medium sized layout so that it displays up to 
+  1230px (ipad air 2019 screen resolution) using media queries*/
 
 /*-------------------------------------Navlinks*/
 .menuitem {
@@ -95,7 +102,7 @@ li img {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
-}
+} /*bootstrap class copied using devtools to remove margins*/
 
 .dropdown {
     padding-left: 12px;
@@ -124,7 +131,8 @@ li img {
 
 @media only screen and (min-width: 1230px) {
 .ipad {
-   display: none!important;
+   display: none!important; 
+   /*the only time I've used !important. I know it's bad form - I was really struggling to otherwise hide certain elements with on the smaller large screens*/
   }
 }
 
@@ -139,13 +147,12 @@ li img {
     padding-left: 0;
 }
 
-
 .ch2 {
     text-align: right;
     padding-right: 0;
     padding-top: 124px
     
-}   
+}
 
 /*------------------End of Header*/
 
@@ -174,7 +181,6 @@ footer {
     padding-left: 0;
 }
 
-
 .contact-icon {
     padding: 20px 60px 25px 0px;
     font-size: 2.5rem;
@@ -192,6 +198,10 @@ footer {
     text-decoration: none;
 }
 /*------------------End of Footer*/
+
+/*------------------Button*/
+
+    /*Button styling generated from https://www.bestcssbuttongenerator.com/*/
 
 .myButton {
 	background-color:#bfbbb8;

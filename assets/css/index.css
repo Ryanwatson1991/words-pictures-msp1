@@ -1,3 +1,8 @@
+/*I've chosen to do different css files for each html page, as well as a seperate one for consistent elements like header & footer - 
+This came from discussing with mentor that this is a good practise to get into early on (even though my site isn't nearly big enough for this to affect loading times).
+I also found it helped a lot with organising my css.
+This page focuses on the index page)*/
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&|Montserrat:100,200,300,400,500,600,700,800,900');
 
 .landing {
@@ -29,7 +34,6 @@
 
 .hero {
     height: 100vh
-
 }
 
 .callout {
@@ -51,7 +55,9 @@
 .info h2 {
     font-size: 50px;
   }
+  /*Needed a slightly smaller font on small screens as it kept throwing off the layout*/
 }
+
 .info h3 {
     font-size: 3.5rem;
     width: 60%;
@@ -105,7 +111,7 @@
     font-family: 'Anton', sans-serif;
     font-weight: 300;
     list-style: none;
-    color: #736cc6;
+    color: #736cc6; /*I found this colour by accident. It was a typo for #736c66 - but I ended up thinking it suited the purpose better than the original colour*/
     line-height: 1.7;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -213,6 +219,8 @@
 }
 
 /*---button---*/
+
+    /*Button styling generated from https://www.bestcssbuttongenerator.com/*/
 
 .bookButton {
 	background-color:#ffe186;

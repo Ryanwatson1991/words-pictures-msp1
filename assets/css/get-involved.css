@@ -1,3 +1,7 @@
+/*I've chosen to do different css files for each html page, as well as a seperate one for consistent elements like header & footer - 
+This came from discussing with mentor that this is a good practise to get into early on (even though my site isn't nearly big enough for this to affect loading times).
+I also found it helped a lot with organising my css.
+This page focuses on the get-involved page)*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&|Montserrat:100,200,300,400,500,600,700,800,900');
 
 body {
@@ -16,8 +20,17 @@ body {
 .get-involved h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
-    
 }
+
+section {
+    padding: 45px 45px 45px 45px;
+}
+
+hr {
+    width: 60%;
+}
+
+/*--Headers--*/
 
 .page-head {
     padding-bottom: 30px;
@@ -28,6 +41,11 @@ body {
     padding-bottom: 30px;
     font-size: 40px;
 }
+
+/*--List Styling--*/
+
+    /*--List of benefits needed styling seperatley because the center alignment made it look weird, 
+    so instead I left aligned it and put in some padding to center it, as well as a media query to make lessen the padding on smaller screens--*/
 
 .benefits{
     text-align: left;
@@ -40,12 +58,4 @@ body {
     margin-left: 5%;
     margin-right: 5%;
   }
-}
-
-section {
-    padding: 45px 45px 45px 45px;
-}
-
-hr {
-    width: 60%;
 }
