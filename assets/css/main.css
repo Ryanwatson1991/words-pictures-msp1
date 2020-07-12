@@ -64,7 +64,7 @@ li img {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 2160px) {
+@media only screen and (max-width: 1230px) {
 .logo {
     width: 100%;
   }
@@ -110,19 +110,19 @@ li img {
     padding-left: 25px;
 }
 
-@media only screen and (max-width: 2160px) {
+@media only screen and (max-width: 1230px) {
 .menuitem {
     padding: 7px;
   }
 }
 
-@media only screen and (max-width: 2160px) {
+@media only screen and (max-width: 1230px) {
 .monitor-only {
    display: none;
   }
 }
 
-@media only screen and (min-width: 2160px) {
+@media only screen and (min-width: 1230px) {
 .ipad {
    display: none!important;
   }
@@ -192,10 +192,6 @@ footer {
     text-decoration: none;
 }
 /*------------------End of Footer*/
-
-input[type="radio"]: after {
-    color: red;
-}
 
 .myButton {
 	background-color:#bfbbb8;
