@@ -48,10 +48,10 @@ body {
 }
 
 .more-info {
-    color: #736cc6;
+    color: #404040;
 }
 
 .more-info:hover {
     text-decoration: none;
-    color: #736cc6;
+    color: #404040;
 }
