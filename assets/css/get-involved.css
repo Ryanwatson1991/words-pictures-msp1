@@ -19,12 +19,12 @@ body {
     
 }
 
-.get-involved h1 {
+.page-head {
     padding-bottom: 30px;
     font-size: 50px;
 }
 
-.get-involved h2 {
+.section-head {
     padding-bottom: 30px;
     font-size: 40px;
 }
@@ -37,11 +37,15 @@ body {
 
 @media only screen and (max-width: 768px) {
 .benefits {
-     margin-left: 5%;
+    margin-left: 5%;
     margin-right: 5%;
   }
 }
 
 section {
     padding: 45px 45px 45px 45px;
+}
+
+hr {
+    width: 60%;
 }
