@@ -14,250 +14,287 @@
     <header class="container-fluid">
         <div>
             <div class="row">
+    <!--Col contains nav items for screens smaller than 1668px, this includes all screens with bootstrap clasification of medium or lower, 
+    as well as screens that are on the smaller end of what is considered large  (1668px is the width of an iPad Pro 2019). It also contains the image 'ch1' on larger screens-->
                 <div class="col-12 col-md-3 col-lg-2 menu d-block ch1-2">
-                            <img src="assets/images/ch1.2.jpg" alt="Mascot Character 1" class="monitor-only menu ch1">
-                                <button class="navbar-toggler navbar-dark d-block ipad" type="button" data-toggle="collapse" data-target="#navbarmenu-links" 
-                                aria-controls="navbarmenu-links" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                                </button>
+                    <img src="assets/images/ch1.2.jpg" alt="Mascot Character 1" class="monitor-only menu ch1">
+                    <button class="navbar-toggler navbar-dark d-block ipad" type="button" data-toggle="collapse" data-target="#navbarmenu-links" 
+                    aria-controls="navbarmenu-links" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarmenu-links">
-                                    <ul class="dropdown logo">
-                                        <li class="menuitem right right d-block ipad">
-                                            <a href="guests.html">Guests</a>
-                                        </li>
-                                        <li class="menuitem right right d-block ipad">
-                                            <a href="schedule.html">Schedule</a>
-                                        </li>
-                                        <li class="menuitem right right d-block ipad">
-                                            <a href="get-involved.html">Get Involved!</a>
-                                        </li>
-                                        <li class="menuitem right right d-block ipad" data-toggle="modal" data-target="#tickets">
-                                            <a href="#">Tickets</a>
-                                        </li>
-                                    </ul>
+                        <ul class="dropdown logo">
+                            <li class="menuitem right right d-block ipad">
+                                <a href="guests.html">Guests</a>
+                            </li>
+                            <li class="menuitem right right d-block ipad">
+                                <a href="schedule.html">Schedule</a>
+                            </li>
+                            <li class="menuitem right right d-block ipad">
+                                <a href="get-involved.html">Get Involved!</a>
+                            </li>
+                            <li class="menuitem right right d-block ipad" data-toggle="modal" data-target="#tickets">
+                                <a href="#">Tickets</a>
+                            </li>
+                        </ul>
                     </div>           
                 </div>
-            <!--Col for nav menu on non-large screens-->
+    <!--Col for nav menu on large screens above 1668px, I have placed the elements seperatley to the above navbar because I wanted two navbar links on 
+    either side of the site logo -->
                 <div class="col-12 col-md-6 col-lg-8 menu">                                               
-                        <nav class="navbar">
-                            <ul class="d-none d-lg-inline">
-                                    <li class="list-inline-item menuitem left monitor-only">
-                                        <a href="guests.html">Guests</a>
-                                    </li>
-                                    <li class="list-inline-item menuitem left monitor-only">
-                                        <a href="schedule.html">Schedule</a>
-                                    </li>
-                            </ul>
-                                        <div class="list-inline-item logo">
-                                            <a href="index.html">
-                                                <h1>
-                                                    Words<br>and<br><span>Pictures</span>                    
-                                                </h1>
-                                                <p class="Navbar-text">
-                                                Gateshead Comic-Convention: <br>12-13 December 2020 <br>                                              
-                                                </p> 
-                                            </a>
-                                        </div>
-                            <ul class="d-none d-lg-inline">
-                                        <li class="list-inline-item menuitem right monitor-only">
-                                            <a href="get-involved.html">Get Involved!</a>
-                                        </li>
-                                        <li class="list-inline-item menuitem right monitor-only" data-toggle="modal" data-target="#tickets">
-                                            <a href="#">Tickets</a>
-                                        </li>
+                    <nav class="navbar">
+                        <ul class="d-none d-lg-inline">
+                            <li class="list-inline-item menuitem left monitor-only">
+                                <a href="guests.html">Guests</a>
+                            </li>
+                            <li class="list-inline-item menuitem left monitor-only">
+                                <a href="schedule.html">Schedule</a>
+                            </li>
+                        </ul>
+                        <div class="list-inline-item logo">
+                            <a href="index.html">
+                                <h1>
+                                    Words<br>and<br><span>Pictures</span>                    
+                                </h1>
+                                <p class="Navbar-text">
+                                    Gateshead Comic-Convention: <br>12-13 December 2020 <br>                                              
+                                </p> 
+                            </a>
+                        </div>
+                        <ul class="d-none d-lg-inline">
+                            <li class="list-inline-item menuitem right monitor-only">
+                                <a href="get-involved.html">Get Involved!</a>
+                            </li>
+                            <li class="list-inline-item menuitem right monitor-only" data-toggle="modal" data-target="#tickets">
+                                <a href="#">Tickets</a>
+                            </li>
                             </ul>  
                         </nav>                    
                 </div>
-                 <div class="col-md-3 col-lg-2 menu ch2 d-none d-md-block"><img src="assets/images/ch2.2.jpg" alt="Mascot Character 2"></div>
+    <!--Final col in header and the simplest one. ch2 displays the same on all resolutions except small screen sizes-->
+                <div class="col-md-3 col-lg-2 menu ch2 d-none d-md-block"><img src="assets/images/ch2.2.jpg" alt="Mascot Character 2">
+                </div>
             </div>      
         </div>
-    
     </header>
-<!--Landing Page-->
-<article class="container-fluid container-callout callout landing">
-           <div class="overlay">
-                <div class="info jumbotron">
-                    <h2>The North-East's <br>Biggest Comic-Con</h2>
-                    <h2> @ Baltic Square</h2>
-                    <h2>Free Entry </h2>
-                    <h4 class="text-sm d-none d-md-block">(Booking Essential)</h4>
-                    <br>
-                    <button class="bookButton" data-toggle="modal" data-target="#tickets">
-                        Book Now!
-                    </button>
-                </div>
+<!--Landing Page main body-->
+    <article class="container-fluid container-callout callout landing">
+    <!--Landing Page Callout - no super exciting features here, mostly just trying to reinforce information in big bold text as well as another ticket booking button. 
+    I struggled a bit with the overlay and W3C & Stack Overflow helped with the solution.-->
+        <div class="overlay">
+            <div class="info jumbotron">
+                <h2>
+                    The North-East's 
+                        <br>
+                    Biggest Comic-Con
+                </h2>
+                <h2> @ Baltic Square</h2>
+                <h2>Free Entry </h2>
+                <h4 class="text-sm d-none d-md-block">(Booking Essential)</h4>
+                <br>
+                <button class="bookButton" data-toggle="modal" data-target="#tickets">
+                    Book Now!
+                </button>
             </div>
-</article>
-<article class="container-fluid landing container-programme programme">     
+        </div>
+    </article>
+    <article class="container-fluid landing container-programme programme">
+    <!--This bit's the sales pitch, reasons you should come to the convention and names of headline guests and featured activities for reinforcement-->     
+        <div class="row">
+            <div class="col-12">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                        <div class="col-md-1 col-lg-2"></div>
-                            <div class="programme-header col-md-10 col-lg-8">
-                            <h2>Welcome to our community</h2>
-                            <p><strong>WORDS AND PICTURES</strong> is Gateshead's celebration of the comic book community. 
+                    <div class="col-md-1 col-lg-2"></div> <!--Empty col to help with spacing-->
+                    <div class="programme-header col-md-10 col-lg-8">
+                        <h2>Welcome to our community</h2>
+                        <p>
+                            <strong>WORDS AND PICTURES</strong> is Gateshead's celebration of the comic book community. 
                             It is an event for fans of all types of comics and aims to support creators and promote discussion 
                             about diversity and inclusivity within the comics industry. 
-                            <br>By coming along you aren't just attending an event, you're joining the community. </p>
-                        </div>
-                        <div class="col-md-1 col-lg-2"></div>
-                        <div class="col-md-1 col-lg-2"></div>
-                            <div class="col-12 col-md-5 col-lg-4 guests-incl">
-                            <h2 class="list-header"><a href="guests.html">Guests include:</a></h2>
-                            <ul class="list-inline">
-                                <li class="programme-list-item">Kelly Thompson</li>
-                                <li class="programme-list-item">Kyle Higgins</li>
-                                <li class="programme-list-item">Jen Bartel</li>
-                                <li class="programme-list-item">Rachel Smythe</li>
-                                <li class="programme-list-item">Gene-Luen-Yang</li>
-                                <li class="programme-list-item">Gail Simone</li>
-                            </ul>
-                            </div>
-                            <div class="col-12 col-md-5 col-lg-4 highlights-incl">
-                            <h2 class="list-header"><a href="schedule.html">Highlights include:</a></h2>
-                            <ul class="list-inline">
-                                <li class="programme-list-item">Mid-Con Party @ By the River Brew</li>
-                                <li class="programme-list-item">Panels & talks</li>
-                                <li class="programme-list-item">Portfolio Reviews</li>
-                                <li class="programme-list-item">Signings</li>
-                                <li class="programme-list-item">Cosplay</li>
-                                <li class="programme-list-item">Exclusive anthology</li>
-                            </ul>
-                            </div>
-                            <div class="col-md-1 col-lg-2"></div>
-                        </div>
+                                <br>
+                            By coming along you aren't just attending an event, you're joining the community. 
+                        </p>
                     </div>
-                </div>
-</article>
-<article class="container-fluid landing container-key-info key-info">           
-                <div class="row no-gutters">
-                    <div class="col-md-1 col-lg-2"></div>
-                    <div class="col-md-10 col-lg-8">
-                            <h3 class="key-info-header">Key info</h3>
-                            <ul>
-                                <li class="no-bullets"><h4>Date</h4><p>Saturday 12 December - Sunday 13 December 2020*</p></li>
-                                <li class="no-bullets"><h4>Time</h4><p>Sat-Sun Convention: 9am-5pm<br>Mid-con Party @ By the River Brew: 7pm-late</p></li>
-                                <li class="no-bullets"><h4>Venue</h4><p>Baltic Centre for Contemporary Art</p></li>
-                                <li class="no-bullets"><h4>How do I get there?</h4>                          
-                                <div class="container col-lg-6 map-container">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4580.570460172574!2d-1.6025893523585837!3d54.96809701683366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e7096a0791ac9%3A0xb442fe0e808b3691!2sBaltic%20Centre%20for%20Contemporary%20Art!5e0!3m2!1sen!2suk!4v1593356436291!5m2!1sen!2suk" 
-                                    style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
-                                </div>
-                                    <br>
-                                <p><a href="https://baltic.art/getting-to-baltic" target="_blank">Click here for more details on how to find the venue</a></p></li>
-                            </ul>
-                            <p class="text-muted footnote"><small><em>*Please note that this event takes place in a parallel timeline where all events in the year 2020 weren't cancelled. 
-                            </em></small></p>
+                    <div class="col-md-1 col-lg-2"></div><!--Empty col to help with spacing-->
+                    <div class="col-md-1 col-lg-2"></div><!--Empty col to help with spacing-->
+                    <div class="col-12 col-md-5 col-lg-4 guests-incl">
+                        <h2 class="list-header"><a href="guests.html">Guests include:</a></h2>
+                        <ul class="list-inline">
+                            <li class="programme-list-item">Kelly Thompson</li>
+                            <li class="programme-list-item">Kyle Higgins</li>
+                            <li class="programme-list-item">Jen Bartel</li>
+                            <li class="programme-list-item">Rachel Smythe</li>
+                            <li class="programme-list-item">Gene-Luen-Yang</li>
+                            <li class="programme-list-item">Gail Simone</li>
+                        </ul>
                     </div>
-                    <div class="col-md-1 col-lg-2"></div>
+                    <div class="col-12 col-md-5 col-lg-4 highlights-incl">
+                        <h2 class="list-header"><a href="schedule.html">Highlights include:</a></h2>
+                        <ul class="list-inline">
+                            <li class="programme-list-item">Mid-Con Party @ By the River Brew</li>
+                            <li class="programme-list-item">Panels & talks</li>
+                            <li class="programme-list-item">Portfolio Reviews</li>
+                            <li class="programme-list-item">Signings</li>
+                            <li class="programme-list-item">Cosplay</li>
+                            <li class="programme-list-item">Exclusive anthology</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1 col-lg-2"></div><!--Empty col to help with spacing-->
                 </div>
-            
-
-                <div class="bottom-img d-none d-md-block">     
-                    <img src="assets/images/hero2.jpg" alt="Comics-panel - birds" class="birds-img">
+            </div>
+        </div>
+    </article>
+    <article class="container-fluid landing container-key-info key-info">           
+        <div class="row">
+            <div class="col-md-1 col-lg-2"></div> <!--Empty col to help with spacing-->
+                <div class="col-md-10 col-lg-8">
+                    <h3 class="key-info-header">Key info</h3>
+                    <ul>
+                        <li class="no-bullets">
+                            <h4>Date</h4>
+                            <p>Saturday 12 December - Sunday 13 December 2020*</p>
+                        </li>
+                        <li class="no-bullets">
+                            <h4>Time</h4>
+                            <p>Sat-Sun Convention: 9am-5pm<br>Mid-con Party @ By the River Brew: 7pm-late</p>
+                        </li>
+                        <li class="no-bullets">
+                            <h4>Venue</h4>
+                            <p>Baltic Centre for Contemporary Art</p>
+                        </li>
+                        <li class="no-bullets">
+                            <h4>How do I get there?</h4>                          
+                            <div class="container col-lg-6 map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4580.570460172574!2d-1.6025893523585837!3d54.96809701683366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e7096a0791ac9%3A0xb442fe0e808b3691!2sBaltic%20Centre%20for%20Contemporary%20Art!5e0!3m2!1sen!2suk!4v1593356436291!5m2!1sen!2suk" 
+                                style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
+                                <!--Obviously the code for this map was taken from google maps, embed function. It seemed like the simplest way to get this map on the site.
+                                I have removed the inline height and width valued from the iframe element and applied sizing using css in order to remove an error detected by
+                                W3C HTML validator-->
+                            </div>
+                            <br>
+                            <p>
+                                <a href="https://baltic.art/getting-to-baltic" target="_blank">
+                                Click here for more details on how to find the venue</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <p class="text-muted footnote">
+                        <small><em>*Please note that this event takes place in a parallel timeline where all events in the year 2020 weren't cancelled.</em></small>
+                        <!--Sort of joking here, but thought I better say somewhere that it's not a real event, just in case-->
+                    </p>
                 </div>
-</article>
+                <div class="col-md-1 col-lg-2"></div><!--Empty col to help with spacing-->
+            </div>
+            <div class="bottom-img d-none d-md-block">
+                <!--This is mostly here to help break up the background colours on the page - 
+                I didn't want too much grey when the page had so far alternated between grey & yellow and the footer was grey-->     
+                <img src="assets/images/hero2.jpg" alt="Comics-panel - birds" class="birds-img">
+            </div>
+    </article>
 
 <!--Footer-->
     <footer class="container-fluid">
+    <!--I've kept the footer pretty simple. Obviously the social media links don't lead to a dedicated 'WORDS AND PICTURES' page, just the home page for the respective site (and email should pop up and try to send an email to one of my email addresses I don't really use)-->
         <div class="row">
             <div class="col-12">                
-                    <ul id="contact-us">
-                        <li class="list-inline-item contact-icon">
-                            <a target="_blank" href="https://twitter.com/">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item contact-icon">
-                            <a target="_blank" href="https://www.facebook.com/">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">facebook</span>
+                <ul id="contact-us">
+                    <li class="list-inline-item contact-icon">
+                        <a target="_blank" href="https://twitter.com/">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">twitter</span>
                         </a>
-                        </li>
-                        <li class="list-inline-item contact-icon">                                
-                            <a target="_blank" href="https://www.instagram.com/">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item contact-icon">
-                            <a target="_blank" href="mailto:ryan.watson.lee@gmail.com">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <span class="sr-only">email</span>
-                            </a>
-                        </li>
-                    </ul>                    
+                    </li>
+                    <li class="list-inline-item contact-icon">
+                        <a target="_blank" href="https://www.facebook.com/">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item contact-icon">                                
+                        <a target="_blank" href="https://www.instagram.com/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item contact-icon">
+                        <a target="_blank" href="mailto:ryan.watson.lee@gmail.com">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span class="sr-only">email</span>
+                        </a>
+                    </li>
+                </ul>                    
             </div>
             <div class="col-12 support">
                 <h6>Supported by</h6>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><img src="assets/images/sponsor-logos/travelling-man.jpg" alt="Travelling Man Logo" class="sponsor"></li>
-                        <li class="list-inline-item"><img src="assets/images/sponsor-logos/code.jpg" alt="Code Institute Logo" class="sponsor"></li>
-                        <li class="list-inline-item"><img src="assets/images/sponsor-logos/baltic.jpg" alt="Baltic Logo" class="sponsor"><br class="d-md-none"><br class="d-md-none"></li>
-                        <li class="list-inline-item"><img src="assets/images/sponsor-logos/ngi.jpg" alt="ngi Logo" class="sponsor"></li>
-                        <li class="list-inline-item"><img src="assets/images/sponsor-logos/newcastle.jpg" alt="Newcastle City Council Logo" class="sponsor"></li>
-                        <li class="list-inline-item"><img src="assets/images/sponsor-logos/gateshead.jpg" alt="Gateshead Council Logo" class="sponsor"></li>
-                    </ul>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><img src="assets/images/sponsor-logos/travelling-man.jpg" alt="Travelling Man Logo" class="sponsor"></li>
+                    <li class="list-inline-item"><img src="assets/images/sponsor-logos/code.jpg" alt="Code Institute Logo" class="sponsor"></li>
+                    <li class="list-inline-item"><img src="assets/images/sponsor-logos/baltic.jpg" alt="Baltic Logo" class="sponsor"><br class="d-md-none"><br class="d-md-none"></li>
+                    <li class="list-inline-item"><img src="assets/images/sponsor-logos/ngi.jpg" alt="ngi Logo" class="sponsor"></li>
+                    <li class="list-inline-item"><img src="assets/images/sponsor-logos/newcastle.jpg" alt="Newcastle City Council Logo" class="sponsor"></li>
+                    <li class="list-inline-item"><img src="assets/images/sponsor-logos/gateshead.jpg" alt="Gateshead Council Logo" class="sponsor"></li>
+                </ul>
             </div>
         </div>
     </footer>
 <!--Modal-->
     <div class="modal" tabindex="-1" role="dialog" id="tickets">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Book your tickets now!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-               <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" aria-describedby="name">
+        <!--I've ut the ticket booking in a pop up modal - Basically, I thought it would be good for it to just show up on the page, no matter what page a viewer was on. 
+        The basic layout for the Modal & the form within it was taken from Bootstrap, as well as influenced by the sign-up modal on the Code Institute Whiskey Drop tutorial
+        (but tweaked to be a ticket booking form)-->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book your tickets now!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label>What day would you like tickets?</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="ticket-type" id="saturday" value="saturday" checked>
-                        <label class="form-check-label" for="saturday">
-                            Saturday (12/12/2020)
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="ticket-type" id="sunday" value="sunday">
-                        <label class="form-check-label" for="sunday">
-                            Sunday (13/12/2020)
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="ticket-type" id="weekend" value="weekend">
-                        <label class="form-check-label" for="weekend">
-                            Weekend Ticket (12/12/2020 - 13/12/2020)
-                        </label>
-                    </div>
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="terms">
-                    <label class="form-check-label" for="terms">By clicking this button you agree to our terms and conditions. You have to do this or you can't get tickets. 
-                    </label>
-                </div>
-                    <button type="submit" class="btn myButton">Submit</button>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label>What day would you like tickets?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ticket-type" id="saturday" value="saturday" checked>
+                                <label class="form-check-label" for="saturday">
+                                    Saturday (12/12/2020)
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ticket-type" id="sunday" value="sunday">
+                                <label class="form-check-label" for="sunday">
+                                    Sunday (13/12/2020)
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="ticket-type" id="weekend" value="weekend">
+                                <label class="form-check-label" for="weekend">
+                                    Weekend Ticket (12/12/2020 - 13/12/2020)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="terms">
+                            <label class="form-check-label" for="terms">
+                                By clicking this button you agree to our terms and conditions. You have to do this or you can't get tickets. 
+                            </label>
+                        </div>
+                            <button type="submit" class="btn myButton">Submit</button>
                     </form>
                 </div>
-            
             </div>
         </div>
     </div>
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
