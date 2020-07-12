@@ -64,7 +64,7 @@ li img {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 2160px) {
 .logo {
     width: 100%;
   }
@@ -110,19 +110,19 @@ li img {
     padding-left: 25px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 2160px) {
 .menuitem {
     padding: 7px;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 2160px) {
 .monitor-only {
    display: none;
   }
 }
 
-@media only screen and (min-width: 1030px) {
+@media only screen and (min-width: 2160px) {
 .ipad {
    display: none!important;
   }
