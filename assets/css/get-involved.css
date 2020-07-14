@@ -33,8 +33,12 @@ hr {
 /*--Headers--*/
 
 .page-head {
-    padding-bottom: 30px;
+    padding: 45px 40px 30px 40px;
     font-size: 50px;
+}
+
+.get-involved-intro {
+    padding: 0 45px 30px 45px;
 }
 
 .section-head {
