@@ -29,9 +29,9 @@ There are also three key things - sort of Unique Selling Points - that I have ai
 
 Images of the initial wireframes I produced for this project are avaliable at the following links:
 
-* [Header & Footer wireframes](/readme-assets/readme-wirefames/h&f-wireframes.pdf) 
-* [Index page Wireframe](/readme-assets/readme-wirefames/index-wireframe.pdf) 
-* [Guests, Schedule & Get Involved Wireframes](/readme-assets/readme-wirefames/w&p-wireframes.pdf) )
+* [Header & Footer wireframes](/readme-assets/readme-wirefame-pdf/h&f-wireframes.pdf) 
+* [Index page Wireframe](/readme-assets/readme-wirefames-pdf/index-wireframe.pdf) 
+* [Guests, Schedule & Get Involved Wireframes](/readme-assets/readme-wirefames-pdf/w&p-wireframes.pdf) )
 
 Looking back on these wireframes, I think two things are clear: 
 * The learning process that came with building the site - particularly evident initial idea for the logo design in my header and how the finished product looks differnt (see 'Header' section for further details).
@@ -208,6 +208,8 @@ Bootstrap CSS & Javascript
 
 ## Testing
 
+### User Stories
+
 I have tested the site with the User stories in mind. These tests have gone as follows: 
 
 User Story One: 
@@ -250,6 +252,8 @@ User Story Four:
 * I'm going to enquire about both os these. 
 * Sends off enquiry email. 
 
+### General self testing
+
 As well as testing the site for these four specific stories, I have conducted a number of tests around how responsive the site is. I have done this throughout the development process, 
 but one thing that came up during development that I solved (or thought I solved), only to realise very late on that I hadn't fully solved, was how the site looks on tablets. 
 
@@ -258,8 +262,30 @@ Basically, initially I had the site set to a medium resolution for the header to
 On screens larger than medium, this would display the full laptop sized header. However, because of the spacing on the header tablet screens pushed the last of the navlinks (tickets) onto the next line, 
 creating a huge grey space below the rest of the header. 
 
-I initially managed to fix this by increasing the medium resolution display through media queries, so that this displayed on screens with a pixel resolution 
+I initially managed to fix this by increasing the medium resolution display through media queries, so that this displayed on screens with a pixel resolution of up to 1024px wide. It wasn't until very late on in the project when testing the site
+on my own ipad that I realised that newer ipad models have a wider pixel width and as a result, the site was not displaying properly on my iPad. 
 
+In order to solve this, I increased the resolution that the medium version of the site would display at up to 1230px. This includes both newer iPad resolutions, as well as covering the point when resizing the window on a laptop where the header begins to display incorrectly. 
+
+### Having others testing the site
+
+As well as testing myself, I have also had my partner test the site, particularly on mobile. I've basically sent her a link and given her a scenario to go through. 
+
+One bug that I noticed as a result of this was that the modals that open on the guests page can cover the full screen on a mobile phone, and there is no way to go back to the main site without refreshing the page. 
+After discussing this with my mentor, we agreed the best way to solve this would be to apply an 'x' button to close the modal. He suggested I read over the bootstrap documentation for modals and I ultimatley found a solution on [sitepoint](https://www.sitepoint.com/understanding-bootstrap-modals/). 
+
+### General Responsive testing
+
+It's also through ongoing testing throughout the development process that I have made most of my decisions regarding the layout at different screen resolutions. 
+I've spoken a lot about my header so far, so won't go into much more detail. 
+
+But particularly with areas such as the guests page and the two bordered lists on the landing page - these are elements placed next to each other on larger screen sizes, but I had to put them 
+into a single column, one above the other on smaller screens in order to make them viewable. 
+
+This wasn't too difficult on the bordered lists on the landing page, however when it came to the guests page I did struggle to some extent because the items were all in a cenered col-12 on the larger screens, 
+but because of this it was really difficult to center (and I couldn't workout how best to divide up the col-12 so they were all in seperate columns on larger screens). 
+
+Eventually I had to hide the guest cards on smaller screens and replace them with a new row where each had their own col-12 that was only visible on small screens. 
 
 ## Deployment
 
