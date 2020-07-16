@@ -30,11 +30,18 @@ There are also three key things - sort of Unique Selling Points - that I have ai
 Images of the initial wireframes I produced for this project are avaliable at the following links:
 
 * [Header & Footer wireframes](/readme-assets/readme-wireframe-pdf/h&f-wireframes.pdf) 
+    * Image 1 - Wireframe for Footer
+    * Image 2 - Revised Wireframe for header - this came once deciding original layout wasn't working. 
+    * Image 3 - Original wireframe for header - this reflects what the original plan for the header was. 
 * [Index page Wireframe](/readme-assets/readme-wireframe-pdf/index-wireframe.pdf) 
+    * Image 1 - Index Page Wireframe
 * [Guests, Schedule & Get Involved Wireframes](/readme-assets/readme-wireframe-pdf/w&p-wireframes.pdf) 
+    * Image 1 - Wireframe for Guests Page
+    * Image 2 - Wireframe for Schedule Page
+    * Image 3 - Wireframe for Get Involved! Page
 
 Looking back on these wireframes, I think two things are clear: 
-* The learning process that came with building the site - particularly evident initial idea for the logo design in my header and how the finished product looks differnt (see 'Header' section for further details).
+* The learning process that came with building the site - particularly evident initial idea for my header and how the finished product looks differnt (see 'Header' section for further details).
 * I think I initially underestimated the importance of producing good wireframes - I think my wireframes are very loose and this meant continuing to think in a designer mindset, even when I should have been focusing on 
   how to get the code to reflect the design ideas I'd already developed. 
 
@@ -51,9 +58,13 @@ But before going into specifics on these I thought it would be worth going into 
 
 I had so much trouble with the page header!
 
-# (Talk about troubles with header)
+It was the first thing I did on the project - and really, the first thing I'd done that wasn't me directly following a Code Institute tutorial. So it was a learning process. 
 
-But ultimatley, the final version of the header I think works well across the four main user stories. My aim was to make sure that someone visits the webpage and the first thing they see is the header, 
+Initially, the idea (as evidenced in my wireframe) was that the image would go in the center of the Navbar, with text over the image that gave name and date of the event. 
+However, I struggled to put this into place early on, especially in how the text was to be positioned over the image (this is something I eventually came to understand with my Hero Image section). 
+In the end I changed the design and I do think that this one works better. Apart from any codeing issues, the two character images are drawn to be at either side of a comics panel, so visually it looks better if these are at the edge of the page. 
+
+Ultimatley, the final version of the header I think works well across the four main user stories. My aim was to make sure that someone visits the webpage and the first thing they see is the header, 
 they get are able to immediatley find out what the event is (a Comic Convention) where it is (Gateshead) and the date (12-13 December 2020. 
 So even if the user doesn't have time to look further and leaves the page immediatley, they have taken in those three key pieces of information. 
 
@@ -70,7 +81,6 @@ Or on a phone:
 
 ![Phone Header Image](/readme-assets/readme-images/phone-header.jpg) 
 
-
 Whilst other parts of the header are hidden, this information is always present.
 
 I've designed the site in this way because I think it's really common to click a link on your phone and go to a site whilst you're between doing other things or on the bus 
@@ -79,10 +89,23 @@ and not actually spend much time looking at it, but kind of make a mental note t
 So the way these key pieces of information are always present when you first visit the site. So if someone comes across the site in between other tasks and are only there for a short period of time, 
 then they'll still get those three key pieces of information. 
 
-### The Logo
+### The Logo & Font
 
-# Make sure to talk about logo, font choice and how it influenced the way the rest of the page was laid out (centered, font across the page). 
+One of the big things that helped things click in to place for me was the deciding of a header font for the page. This font initially started with me looking for something interesting for the logo on the page. 
 
+The font is influenced by a style I like quite a bit that appears on title cards in Killing Eve and Captain America Civil War (As well as video games like The Last of us and Control). 
+
+![Killing Eve](/readme-assets/readme-images/killing_eve.png)
+
+![Captain America: Civil War](/readme-assets/readme-images/civil_war.jpg)
+
+The big, bold, capitalised style was one I thought gave a sense of importance and direct-ness and so I wanted to use this for the logo - I ended up going with the font 'Anton' from Google Fonts
+as this was the closest free alternative to the ones used in Killing Ee & Captain America (I couldn't find the Captain America font, but as far as I can find out the Killing Eve Font is an adapted version of Weekend Tabloid Jnl. Anton as the best free alternative).
+
+I ended up liking the way this font looked so much that I decided to apply it to headers across the website. Again, becuse I felt it gave a sense of importance to the text (I think my favourite bit on the site is the yellow text over the hero image).
+
+I think that deciding on this font really helped to define the aesthetic of the page as a whole. The only headers on the page where this font isn't used are the panel names on the Schedule page - just because the font was difficult to read inside a table. These headers, as well as the rest of the non header text on the site
+use Montserrat - suggested by Google Fonts as something that pairs well with Anton. 
 
 Obviously the header is made up of more than just the Logo section of the header. The images in particular had a big influence on the aesthetic of the page, but I want to go into more detail on that in my second user story. 
 
@@ -116,7 +139,7 @@ can get a quick feel for why they should attend the event. These bordered lists 
 As well as this, since the user in this story is likley travelling from outside of Newcastle - and in keeping with getting all the key info on this landing page - 
 there is also a 'Key Info' section on the page - to make it as easy as possible for someone attending to get all the key details they need to find the venue and attend the event. 
 
-### User Story two
+### User Story Two
 *As a teenager who lives just outside of Gateshead and has attended small scale local comic book events before 
 but never really had the chance to visit a larger scale convention with well known comics writers, 
 I just really want to buy a ticket and make sure I go to this really cool looking event*
@@ -148,6 +171,9 @@ I did want some colour, so went with a yellow colour to break up the grey. The f
 And so this contrast between the yellow text and primarily black/white image - as well as the use of the bold, capitalised header font - means there's no escaping these two facts. 
 
 Additionally, I feel like the grey colour scheme gets at a kind of 'pencil drawing' association because I definitley want this site to appeal to anyone who doodles in their schoolbooks then draws for ages when they get home. 
+
+The one place I broke from the colour scheme of yellow & grey was in the headline guests and events section on the landing page. This was actually an accident at first - I was trying to find another shade of grey to help these stand out and accidentally typed one letter wrong on the hex code. It came up 
+with the purple color used on the finished site. I removed this initially, but eventtually put it back in place because I felt it helped make this part of the site stand out.  
 
 Also, importatly for both this and user story one, is that the tickets button is always on screen in larger resolution modes (and easy to find in the dropdown nav menu in smaller resolutions)
 
@@ -208,9 +234,19 @@ I did manage to complete all the features that I had decided were going to be a 
 
 ## Technoligies Used
 
-HTML
-CSS
-Bootstrap CSS & Javascript
+### Languages used: 
+* HTML
+    * The content of this page is written in **HTML**
+* CSS
+
+### Additional technologies used: 
+* [Bootstrap] (https://getbootstrap.com/)
+    * This page uses **Bootstrap's CSS Library** in order to arrange the content in a visually appealing way as well as being the primary method of making the page responsive. 
+    * This page also uses some of **Bootstrap's JavaScript Library** in order to implement additional features such as the Ticket Booking & Guest Card Modals, as well as the dropdown navbar in the header and 'more info' sections in the schedule tables. 
+* [Font Awesome](https://fontawesome.com/)
+    * This page uses **Font Awesome** for social media link buttons
+* [Google Fonts](https://fonts.google.com/)
+    * **Google Fonts** was used to import the fonts 'Anton' and 'Montserrat', that are used across the page. 
 
 ## Testing
 
@@ -294,49 +330,56 @@ but because of this it was really difficult to center (and I couldn't workout ho
 Eventually I had to hide the guest cards on smaller screens and replace them with a new row where each had their own col-12 that was only visible on small screens. 
 
 ## Deployment
+My website has been deployed via Github Pages. In order to deploy the project in this way, I took the following steps: 
+
+1. Created Github repository 
+2. Wrote Code in Gitpod workspace
+3. Comitted Code to Github (finished code is on Master Branch)
+4. In Github repository, selected the settings option
+5. On the settings page, scrolled down to the Github Pages section
+6. In the Github Pages section, went to 'Sources', selected 'Master Branch' from the dropdown menu
+7. After doing this, Github Paged generates a link to the deployed site (This is at the top of the page, but I'm also copying it here https://ryanwatson1991.github.io/words-pictures-msp1/) 
 
 ## Credits
 
 ### Content
 
-Text and Images on Guests page taken primarily from Comixology.com with the exception of:  
-* Rachel Smythe 
-* Hannah Blumenreich 
-* Uru-chan
+Text and Images on Guests page taken primarily from [Comixology.com](https://www.comixology.co.uk/) with the exception of:  
+* [Rachel Smythe](https://womenincomics.fandom.com/wiki/Rachel_Smythe) 
+* [Hannah Blumenreich](https://hannahblumenreich.tumblr.com/) 
+* [Uru-chan](https://unordinary.fandom.com/wiki/Uru-chan)
 
 ### Media
 
 * Header images (class ch1 & ch2) drawn by Jenny Kirkham based on a comic book script written by me (Ryan Watson)
 * Landing page images (class ) drawn by Matt Creswell
-* Guest page images taken from Comixology (link) with the exception of:
-    * Rachel Smythe 
-    * Hannah Blumenreich 
-    * Uru-chan
+* Guest page images taken from creator pages on [Comixology.com](https://www.comixology.co.uk/)  with the exception of:
+    * [Rachel Smythe](https://frolic.media/creator-rachel-smythe-dream-casts-lore-olympus/)
+    * [Hannah Blumenreich](https://www.change.org/p/marvel-comics-get-hannah-blumnreich-artist-and-writer-her-own-spider-man-series) 
+    * [Uru-chan](https://www.webtoons.com/en/super-hero/unordinary/list?title_no=679)
 
 
 ### Acknowledgements
 
 I recieved inspiration and assistance for the code in this project from the following sources (see comments in project for details on instances where where solutions were more directly used):
 
-* Bootstrap
-* Google Fonts
-* Font Awesome
-* Code Institute
-* W3C
-* Stack Overflow
-* Bestcssbuttongenerator
+* [Bootstrap] (https://getbootstrap.com/)
+* [Code Institute](https://codeinstitute.net/)
+* [W3schools](https://www.w3schools.com/css/css3_images.asp)
+* [Stack Overflow](https://stackoverflow.com/)
+* [Bestcssbuttongenerator](https://www.bestcssbuttongenerator.com/)
+* [Sitepoint] (https://www.sitepoint.com/understanding-bootstrap-modals/)
 
 
 I also recieved inspiration for this content and organisation of this content from a number of comic convention websites.
 These are listed fully below, but as previously mentioned content and the way it is arranged was heavily inspired by [Thought Bubble](https://www.thoughtbubblefestival.com/)
-(though I think the only time I looked directly at their code through devtools was when struggling with placing my navlinks either side of the logo in my header 
-- and I ended up going with a different solution because of the two header images I had used on my page).
+(though I think the only time I looked directly at their code through devtools was when struggling with placing my navlinks either side of the logo in my header - I ended up going with a different solution because of the two header images I had used on my page).
 
 The full list of sites used for inspiration is: 
 
 * [Thought Bubble](https://www.thoughtbubblefestival.com/)
-* [The Lakes Comic Festival]()
-* [Glasgow Comic Convention]()
-* [Newcastle Film & Comic Convention]()
-* [Emerald City Comic Convention]()
-* [San Diego Comic Convention]() 
+* [Lakes International Comic Art Festival](https://www.comicartfestival.com/)
+* [Glasgow Comic Convention](http://www.glasgowcomiccon.com/)
+* [Newcastle Film & Comic Convention](http://www.filmandcomicconnewcastle.com/)
+* [Emerald City Comic Convention](https://www.emeraldcitycomiccon.com/)
+* [Comic Con International: San Diego](https://www.comic-con.org/) 
