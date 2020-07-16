@@ -2,11 +2,11 @@
 
 [My deployed project is avaliable here](https://ryanwatson1991.github.io/words-pictures-msp1/)
 
-What is the site?
+## What is the site?
 
 It's a website for a fictional comic convention *WORDS AND PICTURES* taking place on the NewcastleGateshead Quayside. 
 
-What does this site Aim to achieve? 
+## What does this site Aim to achieve? 
 
 The site's aim is to promote an event that caters to a range of talent within the comics industry as well as feels welcoming to a diverse fandom. 
 
@@ -254,7 +254,7 @@ I did manage to complete all the features that I had decided were going to be a 
 
 I have tested the site with the User stories in mind. These tests have gone as follows: 
 
-User Story One: 
+#### User Story One: 
 * Loaded up the page on a laptop. 
 * Scrolled down the page, looked over the headline guests and decided I'd like more information on one of them (e.g. Jen Bartel). 
 * Clicked the heading on the bordered list of headline guests. 
@@ -271,20 +271,20 @@ User Story One:
 * I press the logo to return to the home screen. 
 * I have a scroll through for information and find at the bottom of the page - all of the key details of the event. Better get booking my train tickets then!
 
-User Story Two: 
+#### User Story Two: 
 * I've heard this comics thing is happening on the Quayside. I might go to it so I have a look at the site on my phone. 
 * It sounds cool and it's free! I think I want to book tickets but I'm a bit anxious about this type of event. 
 * I scroll down a bit further - There's this 'Welcome to the community section' - the event does sound very welcoming.
 * I suppose it is free and it's not far away. 
 * I scroll back up a bit and press the big yellow 'BOOK NOW!' button. I fill out my details and book tickets. 
 
-User Story Three: 
+#### User Story Three: 
 * I'm really late today and need to make sure I get to an event as quickly as possible. I open up the site. 
 * In a rush, I don't even bother to scroll down. I just press the nav dropdown button. 
 * Oh! Schedule. Okay, what's the time *Checks time in top corner of phone* 
 * Right, 1.49pm, the Superman panel is on soon in the Library. 
 
-User Story Four: 
+#### User Story Four: 
 * Ugghh. I can't be bothered to apply for jobs today, I just want to sign up for something fun. 
 * This event sounds cool. Oh yeah, community. I like the sound of some of the guests too. 
 * I wonder if they'll give me a job? I'm probably not experienced enough. 
@@ -363,12 +363,13 @@ Text and Images on Guests page taken primarily from [Comixology.com](https://www
 
 I recieved inspiration and assistance for the code in this project from the following sources (see comments in project for details on instances where where solutions were more directly used):
 
-* [Bootstrap] (https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
 * [Code Institute](https://codeinstitute.net/)
 * [W3schools](https://www.w3schools.com/css/css3_images.asp)
 * [Stack Overflow](https://stackoverflow.com/)
 * [Bestcssbuttongenerator](https://www.bestcssbuttongenerator.com/)
 * [Sitepoint] (https://www.sitepoint.com/understanding-bootstrap-modals/)
+* [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
 
 
 I also recieved inspiration for this content and organisation of this content from a number of comic convention websites.
