@@ -80,6 +80,10 @@ body {
     background-color: #f2edeb;
 }
 
+.close {
+    margin-bottom: 15px;
+}
+
 .card-title {
     font-size: 25px
     }

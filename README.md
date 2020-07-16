@@ -211,44 +211,44 @@ Bootstrap CSS & Javascript
 I have tested the site with the User stories in mind. These tests have gone as follows: 
 
 User Story One: 
-    * Loaded up the page on a laptop. 
-    * Scrolled down the page, looked over the headline guests and decided I'd like more information on one of them (e.g. Jen Bartel). 
-    * Clicked the heading on the bordered list of headline guests. 
-    * This has taken me to the full guests page.
-    * From there, I have found Jen Bartel's guest card. 
-    * I have clicked Jen Bartel's guest card and found out what comics she wrote. 
-    * Okay, I'm pretty interested in the event. But maybe I need to know a few more guests who will be attending. 
-    * I click off of Jen Bartel's Modal and scroll further down. Oh! There are more guests. 
-    * I think I've heard of Kylse Starks. 
-    * I click his guest card and read his bio. I realise I've bought all his comics. I have to meet him. 
-    * I scroll to the top of the page and click the tickets button. 
-    * A ticket booking modal pops up. I fill out my details and press submit. 
-    * Great, I've booked tickets - wait, where was the event again? 
-    * I press the logo to return to the home screen. 
-    * I have a scroll through for information and find at the bottom of the page - all of the key details of the event. Better get booking my train tickets then!
+* Loaded up the page on a laptop. 
+* Scrolled down the page, looked over the headline guests and decided I'd like more information on one of them (e.g. Jen Bartel). 
+* Clicked the heading on the bordered list of headline guests. 
+* This has taken me to the full guests page.
+* From there, I have found Jen Bartel's guest card. 
+* I have clicked Jen Bartel's guest card and found out what comics she wrote. 
+* Okay, I'm pretty interested in the event. But maybe I need to know a few more guests who will be attending. 
+* I click off of Jen Bartel's Modal and scroll further down. Oh! There are more guests. 
+* I think I've heard of Kylse Starks. 
+* I click his guest card and read his bio. I realise I've bought all his comics. I have to meet him. 
+* I scroll to the top of the page and click the tickets button. 
+* A ticket booking modal pops up. I fill out my details and press submit. 
+* Great, I've booked tickets - wait, where was the event again? 
+* I press the logo to return to the home screen. 
+* I have a scroll through for information and find at the bottom of the page - all of the key details of the event. Better get booking my train tickets then!
 
 User Story Two: 
-    * I've heard this comics thing is happening on the Quayside. I might go to it so I have a look at the site on my phone. 
-    * It sounds cool and it's free! I think I want to book tickets but I'm a bit anxious about this type of event. 
-    * I scroll down a bit further - There's this 'Welcome to the community section' - the event does sound very welcoming.
-    * I suppose it is free and it's not far away. 
-    * I scroll back up a bit and press the big yellow 'BOOK NOW!' button. I fill out my details and book tickets. 
+* I've heard this comics thing is happening on the Quayside. I might go to it so I have a look at the site on my phone. 
+* It sounds cool and it's free! I think I want to book tickets but I'm a bit anxious about this type of event. 
+* I scroll down a bit further - There's this 'Welcome to the community section' - the event does sound very welcoming.
+* I suppose it is free and it's not far away. 
+* I scroll back up a bit and press the big yellow 'BOOK NOW!' button. I fill out my details and book tickets. 
 
 User Story Three: 
-    * I'm really late today and need to make sure I get to an event as quickly as possible. I open up the site. 
-    * In a rush, I don't even bother to scroll down. I just press the nav dropdown button. 
-    * Oh! Schedule. Okay, what's the time *Checks time in top corner of phone* 
-    * Right, 1.49pm, the Superman panel is on soon in the Library. 
+* I'm really late today and need to make sure I get to an event as quickly as possible. I open up the site. 
+* In a rush, I don't even bother to scroll down. I just press the nav dropdown button. 
+* Oh! Schedule. Okay, what's the time *Checks time in top corner of phone* 
+* Right, 1.49pm, the Superman panel is on soon in the Library. 
 
 User Story Four: 
-    * Ugghh. I can't be bothered to apply for jobs today, I just want to sign up for something fun. 
-    * This event sounds cool. Oh yeah, community. I like the sound of some of the guests too. 
-    * I wonder if they'll give me a job? I'm probably not experienced enough. 
-    * Oh! It says Get Involved!
-    * Clicks Get Involved, scrolls down the page. 
-    * Oh,so I can volunteer at the event, but also they let you sell your comics there? 
-    * I'm going to enquire about both os these. 
-    * Sends off enquiry email. 
+* Ugghh. I can't be bothered to apply for jobs today, I just want to sign up for something fun. 
+* This event sounds cool. Oh yeah, community. I like the sound of some of the guests too. 
+* I wonder if they'll give me a job? I'm probably not experienced enough. 
+* Oh! It says Get Involved!
+* Clicks Get Involved, scrolls down the page. 
+* Oh,so I can volunteer at the event, but also they let you sell your comics there? 
+* I'm going to enquire about both os these. 
+* Sends off enquiry email. 
 
 As well as testing the site for these four specific stories, I have conducted a number of tests around how responsive the site is. I have done this throughout the development process, 
 but one thing that came up during development that I solved (or thought I solved), only to realise very late on that I hadn't fully solved, was how the site looks on tablets. 
@@ -268,18 +268,18 @@ I initially managed to fix this by increasing the medium resolution display thro
 ### Content
 
 Text and Images on Guests page taken primarily from Comixology.com with the exception of:  
-            * Rachel Smythe 
-            * Hannah Blumenreich 
-            * Uru-chan
+* Rachel Smythe 
+* Hannah Blumenreich 
+* Uru-chan
 
 ### Media
 
 * Header images (class ch1 & ch2) drawn by Jenny Kirkham based on a comic book script written by me (Ryan Watson)
 * Landing page images (class ) drawn by Matt Creswell
 * Guest page images taken from Comixology (link) with the exception of:
-            * Rachel Smythe 
-            * Hannah Blumenreich 
-            * Uru-chan
+    * Rachel Smythe 
+    * Hannah Blumenreich 
+    * Uru-chan
 
 
 ### Acknowledgements
