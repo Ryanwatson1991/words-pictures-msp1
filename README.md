@@ -29,9 +29,9 @@ There are also three key things - sort of Unique Selling Points - that I have ai
 
 Images of the initial wireframes I produced for this project are avaliable at the following links:
 
-* [Header & Footer wireframes](/readme-assets/readme-wirefame-pdf/h&f-wireframes.pdf) 
-* [Index page Wireframe](/readme-assets/readme-wirefames-pdf/index-wireframe.pdf) 
-* [Guests, Schedule & Get Involved Wireframes](/readme-assets/readme-wirefames-pdf/w&p-wireframes.pdf) )
+* [Header & Footer wireframes](/readme-assets/readme-wireframe-pdf/h&f-wireframes.pdf) 
+* [Index page Wireframe](/readme-assets/readme-wireframe-pdf/index-wireframe.pdf) 
+* [Guests, Schedule & Get Involved Wireframes](/readme-assets/readme-wireframe-pdf/w&p-wireframes.pdf) 
 
 Looking back on these wireframes, I think two things are clear: 
 * The learning process that came with building the site - particularly evident initial idea for the logo design in my header and how the finished product looks differnt (see 'Header' section for further details).
@@ -173,7 +173,13 @@ I also wanted the guests page to work in a similar way - with the page displayin
 *I've just finished an Art Degree at the University of Ipswich. I haven't got any comics made, but I really want the opportunity to get more 
 heavily involved in the event so I can speak with creators, get some advice and maybe do a bit of industry networking. How can I get more involved in the event?* 
 
-This one is a bit 
+This one is aimed at the idea of getting more involved with the event. I think the 'Get Involved' page is probably the broadest page on the site as it appeals to three different levels of involvement - 
+with the 'sponsor the event' level being almost out of place as it's dealing with involvement on a whole different level to the other two sections of the page and I think it's the only thing on that page that wouldn't necessarily appeal to the person in User Story Four. 
+
+What I think does work is that the Get Involved page has information about volunteering and attending the event as a creator an I think that the person in User Story Four, while not nescessarily ready to sell his comics at the event, 
+would still benefit from having the volunteering and creator tabling information on the same page - they could volunteer this year with an eye to tabling the following year. 
+
+Also, with regards to the sponsor section, I ultimetley felt that it was better to put here on this page grouped in with 'Get Involved' than to give it it's own page as I don't think it's substantial or exciting enough for it's own page (but still a really important thing to have on there from an event organisers point of view).
 
 ## Features
 
