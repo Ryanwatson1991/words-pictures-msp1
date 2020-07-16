@@ -368,7 +368,7 @@ I recieved inspiration and assistance for the code in this project from the foll
 * [W3schools](https://www.w3schools.com/css/css3_images.asp)
 * [Stack Overflow](https://stackoverflow.com/)
 * [Bestcssbuttongenerator](https://www.bestcssbuttongenerator.com/)
-* [Sitepoint] (https://www.sitepoint.com/understanding-bootstrap-modals/)
+* [Sitepoint](https://www.sitepoint.com/understanding-bootstrap-modals/)
 * [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
 
 
